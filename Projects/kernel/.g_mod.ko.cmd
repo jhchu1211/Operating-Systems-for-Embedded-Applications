@@ -1,0 +1,1 @@
+cmd_/shared_folder/c/kernel/g_mod.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /shared_folder/c/kernel/g_mod.ko /shared_folder/c/kernel/g_mod.o /shared_folder/c/kernel/g_mod.mod.o;  true
